@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ["landing-page-sigma-sage.vercel.app"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
