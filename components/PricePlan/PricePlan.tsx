@@ -7,7 +7,7 @@ const PricePlan = () => {
         <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">
           <div className="p-6 sm:px-8">
             <h2 className="text-lg font-medium text-gray-900">
-              Beginner
+              Frontend
               <span className="sr-only">Plan</span>
             </h2>
 
@@ -25,7 +25,7 @@ const PricePlan = () => {
             </p>
 
             <a
-              className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+              className="mt-4 block rounded border  bg-orange-400 px-12 py-3 text-center text-sm font-medium text-white  hover:text-white hover:bg-orange-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
               href="#"
             >
               Get Started
@@ -154,11 +154,11 @@ const PricePlan = () => {
             </ul>
           </div>
         </div>
-
+        {/* tier 2 */}
         <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">
           <div className="p-6 sm:px-8">
             <h2 className="text-lg font-medium text-gray-900">
-              Intermediate
+              Backend
               <span className="sr-only">Plan</span>
             </h2>
 
@@ -176,7 +176,7 @@ const PricePlan = () => {
             </p>
 
             <a
-              className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+              className="mt-4 block rounded border  bg-orange-400 px-12 py-3 text-center text-sm font-medium text-white  hover:text-white hover:bg-orange-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
               href="#"
             >
               Get Started
@@ -290,7 +290,7 @@ const PricePlan = () => {
         <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">
           <div className="p-6 sm:px-8">
             <h2 className="text-lg font-medium text-gray-900">
-              Pro
+              Dev Ops
               <span className="sr-only">Plan</span>
             </h2>
 
@@ -308,7 +308,7 @@ const PricePlan = () => {
             </p>
 
             <a
-              className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+              className="mt-4 block rounded border  bg-orange-400 px-12 py-3 text-center text-sm font-medium text-white  hover:text-white hover:bg-orange-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
               href="#"
             >
               Get Started

@@ -46,12 +46,12 @@ const Hero = () => {
   return (
     <section className="py-20 bg-white min-h-screen">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
+        <h2 className="text-4xl font-bold text-center text-orange-400 mb-10">
           Course Avaiable:
         </h2>
         <div className="text-center text-2xl mb-5">
           <ul>
-            <p className="underline text-orange-400">Course Details:</p>
+            <p className="underline ">Course Details:</p>
             <li>
               Duration: <span className="font-bold">9 months</span>
             </li>
@@ -84,9 +84,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg text-center shadow-md">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Secure Payments
-            </h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Backend</h3>
             <p className="text-gray-600">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis!
             </p>

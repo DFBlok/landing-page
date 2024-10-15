@@ -7,7 +7,9 @@ const Apply = () => {
     <div className="min-h-screen bg-gray-400 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
         <h1 className="text-3xl font-bold text-center mb-6">
-          How to Apply for Our MERN Stack Web Development Course
+          How to Apply for Our{" "}
+          <span className="text-orange-400">MERN Stack</span> Web Development
+          Course
         </h1>
 
         <p className="text-lg mb-4">
@@ -17,13 +19,13 @@ const Apply = () => {
         <div className="flex justify-center items-center gap-4 my-6">
           <div className="flex flex-col items-center">
             <Image
-              src={"/study/selfpaced3.avif"}
+              src={"/study/self-paced.jpg"}
               alt="self-paced learning"
               width={200}
               height={300}
-              className="mb-2"
+              className="mb-2 transition-all hover:scale-110 duration-300"
             />
-            <p>Self-paced</p>
+            <p className=" text-center">Self-paced</p>
           </div>
 
           <div className="flex flex-col items-center">
@@ -32,6 +34,7 @@ const Apply = () => {
               alt="online learning"
               width={200}
               height={300}
+              className="mb-2 transition-all hover:scale-110 duration-300"
             />
             <p className="text-center">Instructor-led (Online)</p>
           </div>
@@ -42,6 +45,7 @@ const Apply = () => {
               alt="blended learning"
               width={200}
               height={300}
+              className="mb-2 transition-all hover:scale-110 duration-300"
             />
             <p>Blended</p>
           </div>
@@ -120,7 +124,7 @@ const Apply = () => {
         <div className="text-center">
           <Link
             href="/videos/introduction"
-            className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-500"
+            className="bg-orange-400 text-white py-2 px-4 rounded hover:bg-orange-700"
           >
             Watch Introduction Video
           </Link>
