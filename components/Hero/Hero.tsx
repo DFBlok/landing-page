@@ -1,6 +1,6 @@
 import { Key } from "lucide-react";
 import React from "react";
-
+import Image from "next/image";
 const Frontend = [
   { id: 1, name: "HTML" },
   { id: 2, name: "CSS" },
@@ -47,9 +47,9 @@ const Hero = () => {
     <section className="py-20 bg-white min-h-screen">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-orange-400 mb-10">
-          Course Avaiable:
+          Courses Offer:
         </h2>
-        <div className="text-center text-2xl mb-5">
+        {/* <div className="text-center text-2xl mb-5">
           <ul>
             <p className="underline ">Course Details:</p>
             <li>
@@ -64,10 +64,19 @@ const Hero = () => {
               Date: <span className="font-bold">Monday - Friday</span>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-gray-50 p-6 rounded-lg text-center shadow-md">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Frontend</h3>
+            <div>
+              <Image
+                src={"/study/student.gif"}
+                alt="blended learning"
+                width={200}
+                height={300}
+                className="mb-2 transition-all hover:scale-110 duration-300"
+              />
+            </div>
             <p className="text-gray-600">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
               repudiandae.
@@ -76,7 +85,7 @@ const Hero = () => {
               {Frontend.map((frontend) => (
                 <div
                   key={frontend.id}
-                  className="inline-block bg-rose-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2 hover:bg-orange-600 hover:text-white"
+                  className="inline-block bg-gray-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-900 mr-2 mb-2 hover:bg-orange-400 hover:text-white"
                 >
                   {frontend.name}
                 </div>
@@ -85,6 +94,16 @@ const Hero = () => {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg text-center shadow-md">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Backend</h3>
+            <div>
+              <Image
+                src={"/study/stickman.gif"}
+                alt="blended learning"
+                width={200}
+                height={300}
+                className="mb-2 transition-all hover:scale-110 duration-300"
+              />
+            </div>
+
             <p className="text-gray-600">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis!
             </p>
@@ -92,7 +111,7 @@ const Hero = () => {
               {Backend.map((backend) => (
                 <div
                   key={backend.id}
-                  className="inline-block bg-rose-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2 hover:bg-orange-600 hover:text-white"
+                  className="inline-block bg-gray-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-900 mr-2 mb-2 hover:bg-orange-400 hover:text-white"
                 >
                   {backend.name}
                 </div>
@@ -101,6 +120,16 @@ const Hero = () => {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg text-center shadow-md">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Dev Ops</h3>
+            <div>
+              <Image
+                src={"/study/low-energy.gif"}
+                alt="blended learning"
+                width={200}
+                height={300}
+                className="mb-2 transition-all hover:scale-110 duration-300"
+              />
+            </div>
+
             <p className="text-gray-600">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi,
               quasi?.
@@ -109,7 +138,7 @@ const Hero = () => {
               {DevOps.map((devops) => (
                 <div
                   key={devops.id}
-                  className="inline-block bg-rose-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2 hover:bg-orange-600 hover:text-white"
+                  className="inline-block bg-gray-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-900 mr-2 mb-2 hover:bg-orange-400 hover:text-white"
                 >
                   {devops.name}
                 </div>
