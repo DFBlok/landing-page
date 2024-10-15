@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["https://landing-page-gad2dfn53-dfbloks-projects.vercel.app"],
+    domains: ["https://www.freepik.com/"],
     formats: ["image/avif", "image/webp"],
   },
 };
