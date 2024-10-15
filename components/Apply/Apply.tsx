@@ -17,7 +17,7 @@ const Apply = () => {
         <div className="flex justify-center items-center gap-4 my-6">
           <div className="flex flex-col items-center">
             <Image
-              src={"./study/low-energy.gif"}
+              src={"/study/low-energy.gif"}
               alt="self-paced"
               width={100}
               height={300}
@@ -28,7 +28,7 @@ const Apply = () => {
 
           <div className="flex flex-col items-center">
             <Image
-              src={"./study/stickman.gif"}
+              src={"/study/stickman.gif"}
               alt="self-paced"
               width={100}
               height={300}
@@ -38,7 +38,7 @@ const Apply = () => {
 
           <div className="flex flex-col items-center">
             <Image
-              src={"./study/student.gif"}
+              src={"/study/student.gif"}
               alt="self-paced"
               width={100}
               height={300}
