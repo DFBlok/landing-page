@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["landing-page-sigma-sage.vercel.app"],
+    domains: ["https://landing-page-gad2dfn53-dfbloks-projects.vercel.app"],
+    formats: ["image/avif", "image/webp"],
   },
 };
 
