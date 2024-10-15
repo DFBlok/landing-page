@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const Apply = () => {
   return (
@@ -15,7 +16,7 @@ const Apply = () => {
         </p>
         <div className="flex justify-center items-center gap-4 my-6">
           <div className="flex flex-col items-center">
-            <img
+            <Image
               src={"./study/low-energy.gif"}
               alt="self-paced"
               width={100}
@@ -26,7 +27,7 @@ const Apply = () => {
           </div>
 
           <div className="flex flex-col items-center">
-            <img
+            <Image
               src={"./study/stickman.gif"}
               alt="self-paced"
               width={100}
@@ -36,7 +37,7 @@ const Apply = () => {
           </div>
 
           <div className="flex flex-col items-center">
-            <img
+            <Image
               src={"./study/student.gif"}
               alt="self-paced"
               width={100}

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const services = [
   {
@@ -39,7 +40,7 @@ const ServiceList = () => {
               key={service.id}
               className="bg-white rounded-lg shadow-md overflow-hidden"
             >
-              <img
+              <Image
                 src="{service.id}"
                 alt={service.name}
                 className="w-full h-48 object-cover"

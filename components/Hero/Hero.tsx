@@ -1,3 +1,4 @@
+import { Key } from "lucide-react";
 import React from "react";
 
 const Frontend = [
@@ -73,7 +74,10 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap cursor-pointer">
               {Frontend.map((frontend) => (
-                <div className="inline-block bg-rose-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2 hover:bg-orange-600 hover:text-white">
+                <div
+                  key={frontend.id}
+                  className="inline-block bg-rose-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2 hover:bg-orange-600 hover:text-white"
+                >
                   {frontend.name}
                 </div>
               ))}
@@ -88,7 +92,10 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap cursor-pointer">
               {Backend.map((backend) => (
-                <div className="inline-block bg-rose-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2 hover:bg-orange-600 hover:text-white">
+                <div
+                  key={backend.id}
+                  className="inline-block bg-rose-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2 hover:bg-orange-600 hover:text-white"
+                >
                   {backend.name}
                 </div>
               ))}
@@ -102,7 +109,10 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap cursor-pointer">
               {DevOps.map((devops) => (
-                <div className="inline-block bg-rose-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2 hover:bg-orange-600 hover:text-white">
+                <div
+                  key={devops.id}
+                  className="inline-block bg-rose-400 rounded-full px-2 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2 hover:bg-orange-600 hover:text-white"
+                >
                   {devops.name}
                 </div>
               ))}

@@ -10,24 +10,28 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white text-black p-6 rounded-lg shadow-md">
             <p className="mb-4">
-              "This course transformed my career. I went from beginner to
-              building full-stack apps!"
+              &quot;This course transformed my career. I went from beginner to
+              building full-stack apps!&quot;
             </p>
-            <h3 className="font-semibold">– Sarah K., Full-Stack Developer</h3>
+            <h3 className="font-semibold">
+              &ndash; Sarah K., Full-Stack Developer
+            </h3>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md">
             <p className="mb-4">
-              "The mentors were amazing and really helped me build confidence in
-              coding."
+              &quot;The mentors were amazing and really helped me build
+              confidence in coding.&quot;
             </p>
-            <h3 className="font-semibold">– John D., Junior Developer</h3>
+            <h3 className="font-semibold">&ndash; John D., Junior Developer</h3>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md">
             <p className="mb-4">
-              "Best investment I've made. I landed a job within 3 months of
-              finishing."
+              &quot;Best investment I&apos;ve made. I landed a job within 3
+              months of finishing.&quot;
             </p>
-            <h3 className="font-semibold">– Emma R., Front-End Developer</h3>
+            <h3 className="font-semibold">
+              &ndash; Emma R., Front-End Developer
+            </h3>
           </div>
         </div>
       </div>
