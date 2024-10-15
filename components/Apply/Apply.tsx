@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Apply = () => {
   return (
-    <div className="min-h-screen bg-gray-100 py-8 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-400 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
         <h1 className="text-3xl font-bold text-center mb-6">
           How to Apply for Our MERN Stack Web Development Course
