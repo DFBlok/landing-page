@@ -17,9 +17,9 @@ const Apply = () => {
         <div className="flex justify-center items-center gap-4 my-6">
           <div className="flex flex-col items-center">
             <Image
-              src={"/study/low-energy.gif"}
-              alt="self-paced"
-              width={100}
+              src={"/study/selfpaced3.avif"}
+              alt="self-paced learning"
+              width={200}
               height={300}
               className="mb-2"
             />
@@ -28,9 +28,9 @@ const Apply = () => {
 
           <div className="flex flex-col items-center">
             <Image
-              src={"/study/stickman.gif"}
-              alt="self-paced"
-              width={100}
+              src={"/study/online-learning.jpg"}
+              alt="online learning"
+              width={200}
               height={300}
             />
             <p className="text-center">Instructor-led (Online)</p>
@@ -38,9 +38,9 @@ const Apply = () => {
 
           <div className="flex flex-col items-center">
             <Image
-              src={"/study/student.gif"}
-              alt="self-paced"
-              width={100}
+              src={"/study/blended.jpg"}
+              alt="blended learning"
+              width={200}
               height={300}
             />
             <p>Blended</p>
