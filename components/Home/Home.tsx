@@ -21,9 +21,12 @@ const Home = () => {
             reprehenderit error unde nemo dolor ducimus blanditiis, quis culpa
             ipsam ipsa recusandae. Sequi, pariatur.
           </p>
-          <button className="bg-orange-400 text-white py-4 px-9 rounded-full hover:bg-orange-700 transition">
+          <a
+            className="bg-orange-400 text-white py-4 px-9 rounded-full hover:bg-orange-700 transition"
+            href="#PricePlan"
+          >
             Enroll Now
-          </button>
+          </a>
         </div>
 
         {/* Image Section */}
