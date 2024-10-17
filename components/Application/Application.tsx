@@ -8,7 +8,7 @@ import {
 
 const Application = () => {
   return (
-    <div className="grid  grid-row py-12 bg-gray-400">
+    <div className="grid  grid-row py-12 bg-gray-400 rounded-2xl">
       <div className="mb-5 underline-offset-8">
         <p className="text-center text-2xl ">
           <span className="font-bold text-orange-500 uppercase ">
@@ -19,7 +19,7 @@ const Application = () => {
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-2  sm:grid-cols-1 gap-3 mx-5 ">
         {/* step1 */}
-        <div className="p-5 m-2 bg-white border border-zinc-950 shadow-lg cursor-pointer rounded-2xl">
+        <div className="p-5 m-2 bg-white border border-gray-600 shadow-lg cursor-pointer rounded-2xl">
           <Image
             src={"/Application-images/step1.jpg"}
             alt={"step 1"}
@@ -42,7 +42,7 @@ const Application = () => {
           </div>
         </div>
         {/* step2 */}
-        <div className="p-5 m-2 bg-white border border-zinc-950 shadow-lg cursor-pointer rounded-2xl">
+        <div className="p-5 m-2 bg-white border border-gray-600 shadow-lg cursor-pointer rounded-2xl">
           <Image
             src={"/Application-images/step2.jpg"}
             alt={"step 2"}
@@ -65,7 +65,7 @@ const Application = () => {
           </div>
         </div>
         {/* step 3 */}
-        <div className="p-5 m-2 bg-white border border-zinc-950 shadow-lg cursor-pointer rounded-2xl">
+        <div className="p-5 m-2 bg-white border border-gray-600 shadow-lg cursor-pointer rounded-2xl">
           <Image
             src={"/Application-images/step3.jpg"}
             alt={"step 1"}
@@ -88,7 +88,7 @@ const Application = () => {
           </div>
         </div>
         {/* step 4 */}
-        <div className="p-5 m-2 bg-white border border-zinc-950 shadow-lg cursor-pointer rounded-2xl">
+        <div className="p-5 m-2 bg-white border border-gray-600 shadow-lg cursor-pointer rounded-2xl">
           <Image
             src={"/Application-images/step4.jpg"}
             alt={"step 1"}

@@ -6,7 +6,7 @@ import Application from "../Application/Application";
 const Apply = () => {
   return (
     <div className="min-h-screen bg-gray-400 py-8 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-8">
+      <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-2xl p-8">
         <h1 className="text-3xl font-bold text-center mb-6">
           How to Apply for Our{" "}
           <span className="text-orange-400">MERN Stack</span> Web Development
