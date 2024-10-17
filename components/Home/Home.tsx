@@ -4,7 +4,7 @@ import Image from "next/image";
 const Home = () => {
   return (
     <div className="flex flex-col  bg-gray-400 items-center  min-h-screen ">
-      <section className="flex flex-col gap-5 md:flex-row items-center justify-between py-12 md:py-24 px-6 md:px-12 w-full max-w-screen-xl mx-auto">
+      <div className="flex flex-col gap-5 md:flex-row items-center justify-between py-12 md:py-24 px-6 md:px-12 w-full max-w-screen-xl mx-auto">
         {/* Text Section */}
         <div className="md:w-1/2 mb-8  text-center md:text-left   p-5">
           <h3 className="text-2xl md:text-6xl font-bold text-gray-900 mb-4">
@@ -39,7 +39,7 @@ const Home = () => {
             className="rounded-xl shadow-lg transition-all hover:scale-110 duration-300"
           />
         </div>
-      </section>
+      </div>
     </div>
   );
 };

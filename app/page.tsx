@@ -25,7 +25,7 @@ const HomePage = () => {
       {/* <ServiceList /> */}
       {/* Tester pages ----------*/}
       {/* <FeatureSection /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
