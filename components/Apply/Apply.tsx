@@ -1,11 +1,12 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import Application from "../Application/Application";
 
 const Apply = () => {
   return (
     <div className="min-h-screen bg-gray-400 py-8 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
+      <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-8">
         <h1 className="text-3xl font-bold text-center mb-6">
           How to Apply for Our{" "}
           <span className="text-orange-400">MERN Stack</span> Web Development
@@ -50,48 +51,10 @@ const Apply = () => {
             <p>Blended</p>
           </div>
         </div>
+        {/* Application Section */}
+        <Application />
 
-        <h2 className="text-xl font-semibold mb-2">Application Steps:</h2>
-
-        <ol className="list-decimal list-inside mb-6 space-y-2">
-          <li>
-            Create an account by clicking the{" "}
-            <span className="font-bold">New Account</span> button.
-          </li>
-          <li>Watch our free videos to help you decide.</li>
-          <li>
-            After deciding which format to choose, proceed with payment. You
-            must be logged in to access your dashboard.
-            <span className="font-bold"> Click on Bank Details</span>.
-            Instructions will be available in your dashboard.
-          </li>
-          <li>
-            When making a payment via EFT, use your{" "}
-            <span className="font-bold">student ID</span> as the unique
-            reference number, which you will find in your dashboard.
-          </li>
-          <li>
-            Send an email with the attached payment slip to{" "}
-            <a
-              href="mailto:info@velisaafrica.co.za"
-              className="text-blue-600 hover:underline"
-            >
-              info@velisaafrica.co.za
-            </a>
-            , mentioning your Student ID in the subject line.
-          </li>
-          <li>
-            Update your profile. This information will be used to generate your
-            course completion certificate.
-          </li>
-          <li>
-            We will add you to our chat group on Discord, where you will find
-            further instructions.{" "}
-            <span className="font-bold">Download Discord</span>.
-          </li>
-        </ol>
-
-        <h2 className="text-xl font-semibold mb-2">Important Notes:</h2>
+        <h2 className="text-xl font-semibold my-5">Important Notes:</h2>
         <ul className="list-disc list-inside mb-6">
           <li>
             Make sure to read the{" "}
