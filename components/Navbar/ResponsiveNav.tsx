@@ -5,12 +5,17 @@ import MobileNav from "./MobileNav";
 
 const ResponsiveNav = () => {
   const [showNav, setShowNav] = useState(false);
+
   const openNavHandler = () => setShowNav(true);
   const closeNavHandler = () => setShowNav(false);
+
   return (
-    <div>
+    <div className="relative z-[100]">
+      {/* Desktop Navigation */}
       <Nav openNav={openNavHandler} />
-      <MobileNav showNav={showNav} closeNav={closeNavHandler} />
+
+      {/* Mobile Navigation */}
+      {showNav && <MobileNav showNav={showNav} closeNav={closeNavHandler} />}
     </div>
   );
 };

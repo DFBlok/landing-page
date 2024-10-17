@@ -16,51 +16,52 @@ const Nav = ({ openNav }: Props) => {
   useEffect(() => {
     const handler = () => {
       if (window.scrollY >= 90) setNavBg(true);
-      if (window.scrollY < 90) setNavBg(false);
+      else setNavBg(false);
     };
     window.addEventListener("scroll", handler);
     return () => {
       window.removeEventListener("scroll", handler);
     };
-  });
+  }, []);
+
   return (
     <div
-      className={`fixed ${navBg ? "bg-gray-800" : ""} h-[10vh] z-[100] w-full transition-all duration-200 `}
+      className={`fixed ${navBg ? "bg-gray-800" : ""} h-[10vh] z-[100] w-full transition-all duration-200`}
     >
       <div className="flex items-center h-full justify-between w-full max-w-screen-xl px-4 sm:px-8 xl:px-12 mx-auto">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          {/* <div className="md:w-10 md:h-10 w-90 h-90 rounded-full bg-rose-700 text-white flex items-center justify-center flex-col"> */}
+        <div className="flex items-center ">
           <Image
             src={"/Velisa-Landscape-Logo.png"}
-            height={500}
-            width={150}
+            height={60}
+            width={100}
             alt="Velisa Africa Academy"
+            className="object-contain"
           />
-          {/* </div> */}
         </div>
-        <div className="lg:flex items-center space-x-14 text-gray-900 hidden">
-          {navLinks.map((navlink) => {
-            return (
-              <Link key={navlink.id} href={navlink.url}>
-                <p className="font-medium text-white hover:text-orange-400">
-                  {navlink.label}
-                </p>
-              </Link>
-            );
-          })}
+
+        {/* Desktop Nav Links */}
+        <div className="hidden lg:flex items-center space-x-14 text-gray-900">
+          {navLinks.map((navlink) => (
+            <Link key={navlink.id} href={navlink.url}>
+              <p className="font-medium text-white hover:text-orange-400">
+                {navlink.label}
+              </p>
+            </Link>
+          ))}
         </div>
-        {/* login and burgermenu */}
+
+        {/* Login and Mobile Burger Menu */}
         <div className="flex items-center space-x-4">
-          {/* login button */}
-          <div className="flex items-center cursor-pointer text-white space-x-2 hover:text-orange-400 transation-all duration-200">
+          {/* Login Button */}
+          <div className="flex items-center cursor-pointer text-white space-x-2 hover:text-orange-400 transition-all duration-200">
             <FaUserCircle className="w-5 h-5" />
             <p className="font-bold text-xs sm:text-base">Login / Register</p>
           </div>
-          {/* burger menu */}
+          {/* Mobile Burger Menu */}
           <HiBars3BottomRight
             onClick={openNav}
-            className="sm:w-8 sm:h-8 w-6 h-6 cursor-pointer text-white lg:hidden"
+            className="w-6 h-6 sm:w-8 sm:h-8 cursor-pointer text-white lg:hidden"
           />
         </div>
       </div>

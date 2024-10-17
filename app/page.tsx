@@ -4,6 +4,7 @@ import FeatureSection from "@/components/FeatureSection/FeatureSection";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
 import Home from "@/components/Home/Home";
+import ResponsiveNav from "@/components/Navbar/ResponsiveNav";
 import Newsletter from "@/components/Newsletter/Newsletter";
 import PricePlan from "@/components/PricePlan/PricePlan";
 import ServiceList from "@/components/ServiceList/ServiceList";
@@ -15,6 +16,7 @@ const HomePage = () => {
   return (
     <div>
       <Home />
+
       <Hero />
       <Apply />
       <PricePlan />
