@@ -15,15 +15,6 @@ const HomePage = () => {
       <Hero />
       <Apply />
       <PricePlan />
-      {/* <Newsletter /> */}
-
-      {/* ----------Tester pages */}
-      {/* <CourseBenefits />
-      <Testimonials /> */}
-      {/* <ServiceList /> */}
-      {/* Tester pages ----------*/}
-      {/* <FeatureSection /> */}
-      {/* <Footer /> */}
     </div>
   );
 };
